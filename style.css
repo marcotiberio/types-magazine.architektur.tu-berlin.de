@@ -1236,6 +1236,10 @@ textarea {
 	display: none;
 }
 
+.single-post .entry-content p {
+	display: none;
+}
+
 .single-post .entry-footer {
 	display: none;
 }
@@ -1308,6 +1312,24 @@ textarea {
 		opacity: 0.8;
 		font-size: 1.2rem;
 	}
+
+	.page-template-template_types .wp-block-getwid-custom-post-type__post-thumbnail a {
+		width: 100vw;
+		height: auto;
+	}
+
+	.wp-block-getwid-custom-post-type__post-thumbnail {
+		margin-bottom: 0;
+	}
+		
+		.wp-block-getwid-custom-post-type__post-header {
+			margin-top: -60px;
+			text-align: right;
+			margin-right: 0;
+			margin-bottom: 10px;
+			width: 100vw;
+			color: #ffffff;
+		}
 
 	
 }
