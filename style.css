@@ -1194,6 +1194,7 @@ textarea {
 	display: none;
 	margin-right: 5%;
 	color: #ffffff;
+	text-align: right;
 }
 
 .wp-block-getwid-custom-post-type__post-header:hover ~ .wp-block-getwid-custom-post-type__post-excerpt {
