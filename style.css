@@ -1164,7 +1164,7 @@ textarea {
 ## Post
 --------------------------------------------------------------*/
 
-.post-template-types-video {
+.single-post {
 	margin: 0;
 	padding: 0;
 	background-color: black;
@@ -1172,12 +1172,12 @@ textarea {
 	border-right: none;
 }
 
-.post-template-types-video .site-header,
-.post-template-types-video .post-thumbnail {
+.single-post .site-header,
+.single-post .post-thumbnail {
 	display: none;
 }
 
-.post-template-types-video .entry-content {
+.single-post .entry-content {
 	position: absolute;
 	top: 0;
 	left: 0;
