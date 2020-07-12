@@ -1014,6 +1014,7 @@ textarea {
 
 .site-header {
 	position: fixed;
+	background-color: white;
 	top: 0;
 	left: 0;
 }
@@ -1086,7 +1087,7 @@ textarea {
 	height: 12vh;
 	padding: 0 5%;
 	overflow: auto;
-	background-color: rgb(255,255,255);
+	background: rgb(255,255,255);
 	background: -moz-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
 	background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
 	background: linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
