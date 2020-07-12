@@ -1125,7 +1125,7 @@ textarea {
 }
 
 .page-template-template_types #knowledgeTypes {
-	text-align: center;
+	text-align: left;
 	margin: 0;
 	padding: 0;
 }
