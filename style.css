@@ -1172,7 +1172,8 @@ textarea {
 	border-right: none;
 }
 
-.post-template-types-video .site-header {
+.post-template-types-video .site-header,
+.post-template-types-video .post-thumbnail {
 	display: none;
 }
 
