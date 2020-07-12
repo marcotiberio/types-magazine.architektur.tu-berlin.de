@@ -1093,9 +1093,9 @@ textarea {
 	padding: 0 5%;
 	overflow: auto;
 	background: rgb(255,255,255);
-	background: -moz-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
-	background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
-	background: linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
+	background: -moz-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,0.5) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,0.5) 100%);
+	background: linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,0.5) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d3d3d3",GradientType=1);
 }
 
@@ -1231,4 +1231,15 @@ textarea {
 	}
 
 	
+}
+
+
+@media (min-width: 1920px) {
+	
+	.page-template-template_types #knowledgeTypes h1 {
+		color: #707070;
+		font-size: 55px;
+		margin-top: 5vh;
+	}
+
 }
