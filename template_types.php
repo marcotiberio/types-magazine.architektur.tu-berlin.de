@@ -22,16 +22,6 @@
 
 	</main><!-- #main -->
 
-<script>
-	$(document).ready(function(){
-    $( "#arrowsTypes" ).click(function() {
-        $( "#boxTypes" ).animate({
-            height: "65vh", 
-            }, 200 );
-        });
-	});
-</script>
-
 
 <?php
 get_sidebar();
