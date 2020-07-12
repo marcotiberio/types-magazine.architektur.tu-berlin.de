@@ -1235,11 +1235,15 @@ textarea {
 
 
 @media (min-width: 1920px) {
+
+	.page-template-template_types .intro-types {
+		padding: 1% 5%;
+	}
 	
 	.page-template-template_types #knowledgeTypes h1 {
 		color: #707070;
 		font-size: 55px;
-		margin-top: 5vh;
+		margin-top: 3vh;
 	}
 
 }
