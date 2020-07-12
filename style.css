@@ -1229,6 +1229,10 @@ textarea {
 	display: none;
 }
 
+.single-post .entry-footer {
+	display: none;
+}
+
 
 @media (max-width: 1024px) {
 	
@@ -1296,10 +1300,6 @@ textarea {
 		color: #ffffff;
 		opacity: 0.8;
 		font-size: 1.2rem;
-	}
-
-	.single-post .entry-footer {
-		display: none;
 	}
 
 	
