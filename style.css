@@ -62,6 +62,33 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Document
 	 ========================================================================== */
 
+/* Complete */
+
+@font-face {
+	font-family: "AutoscapeWeb-Regular";
+	src: url("assets/fonts/AutoscapeWeb-Regular.woff") format("woff");
+}
+  
+@font-face {
+	font-family: "AutoscapeWeb-Regular";
+	src: url("assets/fonts/AutoscapeWeb-Regular.woff2") format("woff2");
+}
+  
+  
+/* subset */
+  
+@font-face {
+	font-family: "AutoscapeSub-RegularSubset";
+	src: url("assets/fonts/AutoscapeSub-RegularSubset.woff2") format("woff2");
+}
+  
+@font-face {
+	font-family: "AutoscapeSub-RegularSubset";
+	src: url("assets/fonts/AutoscapeSub-RegularSubset.woff") format("woff");
+}
+
+
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
