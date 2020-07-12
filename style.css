@@ -561,20 +561,24 @@ table {
 --------------------------------------------- */
 a {
 	color: #ffffff;
+	text-decoration: none;
 }
 
 a:visited {
 	color: #ffffff;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
 	color: #ffffff;
+	text-decoration: none;
 }
 
 a:focus {
 	outline: none;
+	text-decoration: none;
 }
 
 a:hover,
