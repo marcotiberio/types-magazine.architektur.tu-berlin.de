@@ -1192,7 +1192,6 @@ textarea {
 
 .wp-block-getwid-custom-post-type__post-excerpt {
 	display: none;
-	direction: rtl;
 	margin-right: 5%;
 	color: #ffffff;
 }
