@@ -560,21 +560,21 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: #ffffff;
 }
 
 a:visited {
-	color: #800080;
+	color: #ffffff;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: #ffffff;
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: none;
 }
 
 a:hover,
