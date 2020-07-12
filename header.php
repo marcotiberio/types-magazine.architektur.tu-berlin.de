@@ -58,9 +58,11 @@
 					</h1>
 				</div>
 				<div></div>
-			</div>
-			<div id="knowledgeTypesMobile">
-				<h1>of Knowledge Production</h1>
+				<div id="knowledgeTypesMobile">
+					<h1>of Knowledge Production</h1>
+				</div>
+				<div></div>
+				<div></div>
 			</div>
 			<div id="infoTypes">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
