@@ -2,7 +2,8 @@
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "80vh", 
+            height: "80vh",
+            backgroundColor: "white",
             }, 200 );
         });
     });
