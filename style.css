@@ -1144,11 +1144,6 @@ textarea {
 	color: #858585;
 }
 
-.page-template-template_types .entry-content, .entry-summary {
-    margin: 0;
-	padding: 0;
-}
-
 .page-template-template_types .wp-block-getwid-custom-post-type__post-thumbnail a {
     width: 100vw;
     height: 25vh;
