@@ -22,27 +22,15 @@
 
 	</main><!-- #main -->
 
-
-<div style="display: none;">
-
-    <?php if( have_rows('preview_movie') ): ?>
-
-        <?php while( have_rows('preview_movie') ): the_row(); 
-
-            // vars
-            $cover = get_sub_field('cover_image');
-            $title = get_sub_field('title');
-            ?>
-
-            
-            <img src="<?php echo $cover['url']; ?>" />
-            <a href="<?php echo $title['url']; ?>" target="_blank" rel="noopener noreferrer"></a>
-
-        <?php endwhile; ?>
-
-    <?php endif; ?>
-
-</div>
+<script>
+	$(document).ready(function(){
+    $( "#arrowsTypes" ).click(function() {
+        $( "#boxTypes" ).animate({
+            height: "65vh", 
+            }, 200 );
+        });
+	});
+</script>
 
 
 <?php
