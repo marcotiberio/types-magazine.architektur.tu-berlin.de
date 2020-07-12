@@ -2,7 +2,7 @@
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "75vh", 
+            height: "80vh", 
             }, 200 );
         });
     });
