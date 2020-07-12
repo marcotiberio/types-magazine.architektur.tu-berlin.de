@@ -1172,6 +1172,10 @@ textarea {
 	border-right: none;
 }
 
+.post-template-types-video .site-header {
+	display: none;
+}
+
 .post-template-types-video .entry-content {
 	position: absolute;
 	top: 0;
