@@ -112,3 +112,13 @@ $(document).ready(function(){
         }, 200 );
     });
 });
+
+
+$(document).ready(function(){
+    $(".preview-title").mouseenter(function(){
+      $(".preview-summary").css("display", "block");
+    });
+    $(".preview-title").mouseleave(function(){
+      $(".preview-summary").css("display", "none");
+    });
+});
