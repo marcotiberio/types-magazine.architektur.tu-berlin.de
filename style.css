@@ -1244,6 +1244,13 @@ textarea {
 	display: none;
 }
 
+#linkPdf {
+	display: block;
+}
+
+#linkPdf h3 {
+	color: white;
+}
 
 @media (max-width: 1024px) {
 	
