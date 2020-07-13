@@ -48,7 +48,7 @@
 		<div class="intro-types" id="boxTypes">
 			<div class="info-type">
 				<div id="titleTypes">
-					<h1>Types</h1>
+					<h1>TYPES</h1>
 				</div>
 				<div id="arrowsTypes">
 					<h1>
