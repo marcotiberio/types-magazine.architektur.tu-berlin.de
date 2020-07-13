@@ -1091,7 +1091,7 @@ textarea {
 
 .page-template-template_types .intro-types {
 	width: 100vw;
-	height: 12vh;
+	height: 25vh;
 	padding: 0 5%;
 	overflow: auto;
 	background: rgb(255,255,255);
@@ -1223,7 +1223,8 @@ textarea {
 }
 
 .single-post .site-header,
-.single-post .post-thumbnail {
+.single-post .post-thumbnail,
+.single-post .post-navigation {
 	display: none;
 }
 
