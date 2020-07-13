@@ -1180,7 +1180,7 @@ textarea {
 
 .wp-block-getwid-custom-post-type__post-header {
   	margin-top: 2%;
-	text-align: right;
+	text-align: left;
 	margin-right: 5%;
 	color: #ffffff;
 }
