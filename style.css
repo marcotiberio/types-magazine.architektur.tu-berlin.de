@@ -1178,6 +1178,11 @@ textarea {
   	width: 100%;
 }
 
+.wp-block-getwid-custom-post-type__post-thumbnail {
+	max-width: 5% !important;
+  	margin: 0;
+}
+
 .wp-block-getwid-custom-post-type__post-header {
   	margin-top: 2%;
 	text-align: left;
