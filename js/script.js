@@ -48,7 +48,7 @@ $(document).ready(function(){
     });
     
     $(document).ready(function(){
-    $( "#titleTypes" ).click(function() {
+    $( "#arrowsTypes" ).click(function() {
         $( "#boxTypes" ).animate({
             height: "12vh", 
             }, 200 );
