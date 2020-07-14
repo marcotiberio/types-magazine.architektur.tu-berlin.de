@@ -10,7 +10,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#masthead" ).animate({
-            height: "80vh",
+            marginLeft: "80vh",
             }, 200 );
         });
     });
