@@ -1087,7 +1087,7 @@ textarea {
 
 .page-template-template_types .info-type {
 	display: grid;
-	grid-template-columns: 2fr 6fr 1fr;
+	grid-template-columns: 1.5fr 7fr 1fr;
 }
 
 .page-template-template_types .intro-types {
@@ -1118,6 +1118,7 @@ textarea {
 .page-template-template_types #arrowThree {
 	color: #961eff;
 	font-size: 55px;
+	margin-left: 0 -50px;
 }
 
 .page-template-template_types #infoTypes {
