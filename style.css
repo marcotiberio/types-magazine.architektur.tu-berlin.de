@@ -1027,7 +1027,7 @@ textarea {
 	top: 0;
 	left: 0;
 	z-index: 1000;
-	height: 20vh;
+	height: 25vh;
 }
 
 .main-navigation,
@@ -1099,7 +1099,7 @@ textarea {
 
 .page-template-template_types .intro-types {
 	width: 100vw;
-	height: 20vh;
+	height: 25vh;
 	padding: 0 5%;
 	overflow: auto;
 	background: rgb(255,255,255);
@@ -1167,7 +1167,7 @@ textarea {
 
 .page-template-template_types .wp-block-getwid-custom-post-type__post-thumbnail a {
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
 }
 
 .page-template-template_types .wp-block-getwid-custom-post-type__post {
@@ -1177,7 +1177,7 @@ textarea {
 }
 
 .wp-block-group {
-	height: 20vh;
+	height: 25vh;
 }
 
 .has-layout-list .wp-block-getwid-custom-post-type__post-thumbnail+.wp-block-getwid-custom-post-type__content-wrapper {
