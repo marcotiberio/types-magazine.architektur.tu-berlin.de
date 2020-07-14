@@ -31,7 +31,7 @@
 
 	<?php types_magazine_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content" id="entryContent">
 		<?php
 		the_content(
 			sprintf(
