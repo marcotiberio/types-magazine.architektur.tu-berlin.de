@@ -1240,7 +1240,7 @@ textarea {
 
 .single-post .entry-content {
 	position: absolute;
-	top: 30vh;
+	top: 0vh;
 	left: 0;
 	width: 100vw;
 	height: auto;
@@ -1356,6 +1356,10 @@ textarea {
 
 	.wp-block-getwid-custom-post-type__post-header:hover ~ .wp-block-getwid-custom-post-type__post-excerpt {
 		display: none;
+	}
+
+	.single-post .entry-content {
+		top: 30vh;
 	}
 
 	

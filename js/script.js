@@ -2,7 +2,7 @@
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "80vh",
+            height: "75vh",
             }, 200 );
         });
     });
@@ -10,7 +10,15 @@ $(document).ready(function(){
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#masthead" ).animate({
-            height: "80vh",
+            height: "75vh",
+            }, 200 );
+        });
+    });
+
+$(document).ready(function(){
+    $( "#arrowsTypes" ).click(function() {
+        $( "#entryContent" ).animate({
+            marginTop: "75vh",
             }, 200 );
         });
     });
@@ -58,7 +66,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "20vh", 
+            height: "25vh", 
             }, 200 );
         });
     });
@@ -66,7 +74,15 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#masthead" ).animate({
-            height: "20vh", 
+            height: "25vh", 
+            }, 200 );
+        });
+    });
+
+$(document).ready(function(){
+    $( "#titleTypes" ).click(function() {
+        $( "#entryContent" ).animate({
+            marginTop: "12vh", 
             }, 200 );
         });
     });
