@@ -90,7 +90,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowOne" ).animate({
-            margin: "0 -50px 0 0", 
+            margin: "0 -80px 0 0", 
             }, 200 );
         });
     });
@@ -106,7 +106,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowThree" ).animate({
-            margin: "0 0 0 -50px", 
+            margin: "0 0 0 -80px", 
             }, 200 );
         });
     });
