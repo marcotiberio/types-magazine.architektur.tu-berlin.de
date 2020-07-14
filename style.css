@@ -1160,7 +1160,7 @@ textarea {
 
 .page-template-template_types .wp-block-getwid-custom-post-type__post-thumbnail a {
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
 }
 
 .page-template-template_types .wp-block-getwid-custom-post-type__post {
@@ -1170,7 +1170,7 @@ textarea {
 }
 
 .wp-block-group {
-	height: 25vh;
+	height: 20vh;
 }
 
 .has-layout-list .wp-block-getwid-custom-post-type__post-thumbnail+.wp-block-getwid-custom-post-type__content-wrapper {
