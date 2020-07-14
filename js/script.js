@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowOne" ).animate({
-            margin: "0 65px", 
+            margin: "0", 
             }, 200 );
         });
     });
