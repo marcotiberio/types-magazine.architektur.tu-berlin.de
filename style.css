@@ -1102,7 +1102,7 @@ textarea {
 }
 
 .page-template-template_types #titleTypes {
-	color: #707070;
+	color: #961eff;
 }
 
 .page-template-template_types #titleTypes h1,
@@ -1112,18 +1112,10 @@ textarea {
 	cursor: pointer;
 }
 
-.page-template-template_types #arrowOne {
-	color: #B7B7B7;
-	font-size: 55px;
-}
-
-.page-template-template_types #arrowTwo {
-	color: #9B9898;
-	font-size: 55px;
-}
-
+.page-template-template_types #arrowOne,
+.page-template-template_types #arrowTwo,
 .page-template-template_types #arrowThree {
-	color: #707070;
+	color: #961eff;
 	font-size: 55px;
 }
 
@@ -1139,7 +1131,7 @@ textarea {
 }
 
 .page-template-template_types #knowledgeTypes h1 {
-	color: #707070;
+	color: #961eff;
 	font-size: 55px;
 	margin-top: 0;
 }
