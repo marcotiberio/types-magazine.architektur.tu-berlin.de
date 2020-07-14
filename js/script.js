@@ -42,7 +42,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#infoTypes" ).animate({
-            margin: "5% 0 0 0", 
+            margin: "0", 
             }, 200 );
         });
     });
