@@ -1140,7 +1140,7 @@ textarea {
 }
 
 .page-template-template_types #infoTypes {
-	width: 30%;
+	width: 50%;
 	height: auto;
 	margin: 2% 0 0 0;
 }
@@ -1376,6 +1376,16 @@ textarea {
 		color: #961eff;
 		font-size: 55px;
 		margin-top: 3vh;
+	}
+
+	.page-template-template_types #infoTypes {
+		width: 50%;
+		height: auto;
+		margin: 2% 0 0 0;
+	}
+
+	.page-template-template_types #infoTypes p {
+		font-size: 2rem;
 	}
 
 }
