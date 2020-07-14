@@ -10,7 +10,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#masthead" ).animate({
-            marginLeft: "80vh",
+            height: "80vh",
             }, 200 );
         });
     });
@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowOne" ).animate({
-            margin: "0", 
+            marginLeft: "65px", 
             }, 200 );
         });
     });
@@ -26,7 +26,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowTwo" ).animate({
-            margin: "0 65px", 
+            marginLeft: "65px", 
             }, 200 );
         });
     });
@@ -34,7 +34,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowThree" ).animate({
-            margin: "0 65px", 
+            marginLeft: "65px", 
             }, 200 );
         });
     });
