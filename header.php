@@ -78,7 +78,7 @@
 						<h1>Types</h1>
 					</div>
 					<div id="arrowsTypesMobile">
-						<h1> > > > </h1>
+						<h1>>>></h1>
 					</div>
 				</div>
 				<div id="rowTwo">
