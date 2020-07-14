@@ -6,6 +6,14 @@ $(document).ready(function(){
             }, 200 );
         });
     });
+
+$(document).ready(function(){
+    $( "#arrowsTypes" ).click(function() {
+        $( "#masthead" ).animate({
+            height: "80vh",
+            }, 200 );
+        });
+    });
     
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
@@ -50,7 +58,15 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "12vh", 
+            height: "20vh", 
+            }, 200 );
+        });
+    });
+
+    $(document).ready(function(){
+    $( "#titleTypes" ).click(function() {
+        $( "#masthead" ).animate({
+            height: "20vh", 
             }, 200 );
         });
     });
