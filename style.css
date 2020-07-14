@@ -1232,7 +1232,7 @@ textarea {
 
 .single-post .entry-content {
 	position: absolute;
-	top: 0;
+	top: 30vh;
 	left: 0;
 	width: 100vw;
 	height: auto;
