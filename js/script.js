@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowOne" ).animate({
-            marginLeft: "65px", 
+            marginLeft: "100px", 
             }, 200 );
         });
     });
@@ -26,7 +26,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowTwo" ).animate({
-            marginLeft: "65px", 
+            marginLeft: "100px", 
             }, 200 );
         });
     });
@@ -34,7 +34,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowThree" ).animate({
-            marginLeft: "65px", 
+            marginLeft: "100px", 
             }, 200 );
         });
     });
@@ -74,7 +74,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowOne" ).animate({
-            margin: "0 -50px", 
+            marginLeft: "-20px", 
             }, 200 );
         });
     });
@@ -82,7 +82,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowTwo" ).animate({
-            margin: "0 -50px", 
+            marginLeft: "-20px", 
             }, 200 );
         });
     });
@@ -90,7 +90,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowThree" ).animate({
-            margin: "0 -50px", 
+            marginLeft: "-20px", 
             }, 200 );
         });
     });
