@@ -87,6 +87,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	src: url("assets/fonts/AutoscapeSub-RegularSubset.woff") format("woff");
 }
 
+@font-face {
+	font-family: 'Akzidenz Grotesk Black';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Akzidenz Grotesk Black'), url('assets/fonts/Akzidenz-grotesk-black.woff') format('woff');
+}
+
 
 
 /**
@@ -1202,6 +1209,7 @@ textarea {
 	margin-right: 5%;
 	color: #ffffff;
 	text-align: right;
+	font-family: 'Akzidenz Grotesk Black';
 }
 
 .wp-block-getwid-custom-post-type__post-header:hover ~ .wp-block-getwid-custom-post-type__post-excerpt {
