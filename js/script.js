@@ -106,7 +106,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
-            margin: "10vh 0 0 0", 
+            margin: "12vh 0 0 0", 
             }, 200 );
         });
     });
