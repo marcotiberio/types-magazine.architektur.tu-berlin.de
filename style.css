@@ -1113,12 +1113,18 @@ textarea {
 	cursor: pointer;
 }
 
-.page-template-template_types #arrowOne,
+.page-template-template_types #arrowOne {
+	color: #961eff;
+	font-size: 55px;
+	margin: 0;
+}
+
+
 .page-template-template_types #arrowTwo,
 .page-template-template_types #arrowThree {
 	color: #961eff;
 	font-size: 55px;
-	margin: 0 -50px;
+	margin: 0 -65px;
 }
 
 .page-template-template_types #infoTypes {
