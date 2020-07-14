@@ -52,36 +52,9 @@
 				</div>
 				<div id="arrowsTypes">
 					<h1>
-					<span id="arrowOne"> 
-						<svg xmlns="http://www.w3.org/2000/svg" width="132" height="93" viewBox="0 0 132 93">
-							<defs>
-							</defs>
-							<g transform="translate(-382.426 -15.779)"><text class="a" transform="translate(382.426 91.779)">
-								<tspan x="0" y="0">&gt;</tspan>
-								</text><text class="a" transform="translate(423.426 91.779)">
-							</g>
-						</svg>
-					</span>
-					<span id="arrowTwo">
-					<svg xmlns="http://www.w3.org/2000/svg" width="132" height="93" viewBox="0 0 132 93">
-							<defs>
-							</defs>
-							<g transform="translate(-382.426 -15.779)"><text class="a" transform="translate(382.426 91.779)">
-								<tspan x="0" y="0">&gt;</tspan>
-								</text><text class="a" transform="translate(423.426 91.779)">
-							</g>
-						</svg>
-					</span>
-					<span id="arrowThree">
-					<svg xmlns="http://www.w3.org/2000/svg" width="132" height="93" viewBox="0 0 132 93">
-							<defs>
-							</defs>
-							<g transform="translate(-382.426 -15.779)"><text class="a" transform="translate(382.426 91.779)">
-								<tspan x="0" y="0">&gt;</tspan>
-								</text><text class="a" transform="translate(423.426 91.779)">
-							</g>
-						</svg>
-					</span>
+					<span id="arrowOne"> > </span>
+					<span id="arrowTwo"> > </span>
+					<span id="arrowThree"> > </span>
 					</h1>
 				</div>
 				<div></div>
