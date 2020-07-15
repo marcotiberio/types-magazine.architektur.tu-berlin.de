@@ -128,21 +128,19 @@ $(document).ready(function(){
     });
 
 
-    
-
 
 $(document).ready(function(){
     $( "#arrowsTypesMobile" ).click(function() {
-        $( "#infoTypesMobileGrid" ).animate({
-            rowGap: "0", 
+        $( "#boxTypesMobile" ).animate({
+            height: "100vh", 
             }, 200 );
         });
     });
 
 $(document).ready(function(){
     $( "#arrowsTypesMobile" ).click(function() {
-        $( "#boxTypesMobile" ).animate({
-            height: "100vh", 
+        $( "#infoTypesMobileGrid" ).animate({
+            rowGap: "0", 
             }, 200 );
         });
     });
