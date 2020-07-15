@@ -138,12 +138,33 @@ $(document).ready(function(){
     });
 
 $(document).ready(function(){
+    $( "#arrowsTypesMobile" ).click(function() {
+        $( "#infoTypesMobile" ).animate({
+            rowGap: "0", 
+            }, 200 );
+        });
+    });
+
+$(document).ready(function(){
     $( "#titleTypesMobile" ).click(function() {
         $( "#boxTypesMobile" ).animate({
             height: "12vh", 
         }, 200 );
     });
 });
+
+$(document).ready(function(){
+    $( "#titleTypesMobile" ).click(function() {
+        $( "#infoTypesMobile" ).animate({
+            rowGap: "100px", 
+            }, 200 );
+        });
+    });
+
+
+
+
+
 
 
 $(document).ready(function(){
