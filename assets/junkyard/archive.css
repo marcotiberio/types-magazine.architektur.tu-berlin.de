@@ -1,0 +1,177 @@
+/* Andrew */
+
+.page-template-template_types #titleTypes h1, .page-template-template_types #arrowsTypes h1 {
+    font-size: 5rem;
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+.page-template-template_types .intro-types {
+    width: 100vw;
+    height: 25vh;
+		padding: 0 2%;
+}
+
+
+.site-header {
+	position: fixed;
+	background-color: white;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	height: 25vh;
+}
+
+.site-main {
+	margin-top: 25vh;
+}
+
+
+.page-template-template_types .intro-types {
+	width: 100vw;
+	height: 25vh;
+	padding: 1% 2%;
+	overflow: auto;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
+	background: linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d3d3d3",GradientType=1);
+}
+
+.page-template-template_types #knowledgeTypes {
+    text-align: left;
+    margin-top: 12vh;
+    padding: 0;
+}
+
+.page-template-template_types #knowledgeTypes h1 {
+	color: #961eff;
+	font-size: 5rem;
+	margin-top: 0;
+}
+
+.page-template-template_types #arrowOne {
+	color: #961eff;
+	font-size: 5rem;
+	margin: 0 -80px 0 0;
+}
+
+
+.page-template-template_types #arrowTwo {
+	color: #961eff;
+	font-size: 5rem;
+	margin: 0;
+}
+
+.page-template-template_types #arrowThree {
+	color: #961eff;
+	font-size: 5rem;
+	margin: 0 0 0 -80px;
+}
+
+.page-template-template_types #boxTypesMobile,
+.page-template-template_types #knowledgeTypesMobile {
+	display: none;
+}
+
+.wp-block-getwid-custom-post-type__post-thumbnail {
+	max-width: 2% !important;
+  margin: 0;
+}
+
+.wp-block-getwid-custom-post-type__post-header {
+  	margin-top: 0%;
+		text-align: left;
+		margin-right: 5%;
+		color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+	
+	.page-template-template_types #boxTypes {
+	display: none;
+}
+
+	.page-template-template_types #boxTypesMobile,
+.page-template-template_types #knowledgeTypesMobile {
+	display: block;
+}
+	
+	.page-template-template_types .info-type {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, 1fr);
+		height: 5rem;
+	}
+	
+	.page-template-template_types #rowOne {
+		display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+		height: 5rem;
+	}
+	
+	.page-template-template_types #rowTwo{
+		display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+		height: auto;
+	}
+	
+.page-template-template_types #titleTypesMobile h1 {
+	font-size: 55px;
+	margin-top: 0 !important;
+	cursor: pointer;
+	color: #961eff;
+}
+
+.page-template-template_types #arrowsTypesMobile h1 {
+	font-size: 55px;
+	margin-top: 0;
+	cursor: pointer;
+	color: #961eff;
+}
+
+	
+	#knowledgeTypesMobile h1 {
+		font-size: 45px;
+		color: #961eff;
+	}
+	
+	#infoTypesMobile {
+		font-size: 18px;
+		color: #707070;
+	}
+	
+	.site-header {
+		position: fixed;
+		background-color: white;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		height: 20vh;
+	}
+	
+	.page-template-template_types #boxTypesMobile, .page-template-template_types #knowledgeTypesMobile {
+    display: block;
+    background-color: white;
+}
+
+	.site-main {
+		margin-top: 20vh;
+	}
+
+.page-template-template_types .intro-types {
+    width: 100vw;
+    height: 20vh;
+}
+
+.page-template-template_types .info-type {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, 1fr);
+		row-gap: 100px;
+    height: 5rem;
+}
+}
