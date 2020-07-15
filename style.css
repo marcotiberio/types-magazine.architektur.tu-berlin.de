@@ -1272,6 +1272,24 @@ textarea {
 }
 
 @media (max-width: 1024px) {
+
+	.site-header {
+		position: fixed;
+		background-color: white;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		height: 20vh;
+	}
+
+	.site-main {
+		margin-top: 20vh;
+	}
+
+	.page-template-template_types .intro-types {
+		width: 100vw;
+		height: 20vh;
+	}
 	
 	.page-template-template_types #boxTypes {
 		display: none;
@@ -1280,13 +1298,15 @@ textarea {
 	.page-template-template_types #boxTypesMobile,
 	.page-template-template_types #knowledgeTypesMobile {
 		display: block;
+		background-color: white;
 	}
 	
 	.page-template-template_types .info-type {
 		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat (3, 1fr);
-		height: 5rem;
+    	grid-template-columns: 1fr;
+    	grid-template-rows: repeat (3, 1fr);
+		row-gap: 100px;
+    	height: 5rem;
 	}
 
 	.page-template-template_types #rowOne {
@@ -1322,12 +1342,12 @@ textarea {
 	}
 		
 	#knowledgeTypesMobile h1 {
-		font-size: 55px;
+		font-size: 45px;
 		color: #961eff;
 	}
 
 	#infoTypesMobile {
-		font-size: 26px;
+		font-size: 20px;
 		color: #707070;
 	}
 

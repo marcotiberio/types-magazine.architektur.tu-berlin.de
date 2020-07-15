@@ -72,7 +72,7 @@
 		</div>
 
 		<div class="intro-types" id="boxTypesMobile">
-			<div class="info-type">
+			<div class="info-type" id="infoTypesMobileGrid">
 				<div id="rowOne">
 					<div id="titleTypesMobile">
 						<h1>Types</h1>

@@ -139,7 +139,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $( "#arrowsTypesMobile" ).click(function() {
-        $( "#infoTypesMobile" ).animate({
+        $( "#infoTypesMobileGrid" ).animate({
             rowGap: "0", 
             }, 200 );
         });
@@ -155,7 +155,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $( "#titleTypesMobile" ).click(function() {
-        $( "#infoTypesMobile" ).animate({
+        $( "#infoTypesMobileGrid" ).animate({
             rowGap: "100px", 
             }, 200 );
         });
