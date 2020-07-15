@@ -1039,6 +1039,11 @@ textarea {
 	display: none;
 }
 
+.intro-types,
+.info-type{
+	overflow: hidden !important;
+}
+
 
 /*--------------------------------------------------------------
 /*--------------------------------------------------------------
@@ -1269,6 +1274,14 @@ textarea {
 
 #linkPdf h3 {
 	color: white;
+}
+
+.wp-block-getwid-custom-post-type__content-wrapper {
+	display: none;
+}
+
+.wp-block-getwid-custom-post-type__post-wrapper:hover > .wp-block-getwid-custom-post-type__content-wrapper {
+	display: block;
 }
 
 @media (max-width: 1024px) {
