@@ -1445,15 +1445,3 @@ textarea {
 	}
 
 }
-
-
-
-#boxTypes {
-	max-height: 52px;
-	overflow: hidden;
-	transition: all .3s ease;
-  }
-
-  #boxTypes.expand {
-	max-height: 250px;
-  }
