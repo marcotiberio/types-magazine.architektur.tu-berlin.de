@@ -82,7 +82,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#entryContent" ).animate({
-            marginTop: "12vh", 
+            marginTop: "13vh", 
             }, 200 );
         });
     });
@@ -122,7 +122,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
-            margin: "12vh 0 0 0", 
+            margin: "13vh 0 0 0", 
             }, 200 );
         });
     });
