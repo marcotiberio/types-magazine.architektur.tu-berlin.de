@@ -1379,7 +1379,7 @@ textarea {
 	.page-template-template_types #infoTypesMobileGrid {
 		display: grid;
     	grid-template-columns: 1fr;
-    	grid-template-rows: repeat (3, 1fr);
+    	grid-template-rows: repeat(3, 1fr);
 		row-gap: 100px;
     	height: 5rem;
 	}
