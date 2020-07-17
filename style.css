@@ -1150,7 +1150,7 @@ textarea {
 }
 
 .page-template-template_types #infoTypes {
-	width: 60%;
+	width: 85vw;
 	height: auto;
 	margin: 2% 0 0 0;
 }
@@ -1486,7 +1486,7 @@ textarea {
 	}
 
 	.page-template-template_types #infoTypes {
-		width: 50vw;
+		width: 60vw;
 		height: auto;
 		margin: 2% 0 0 0;
 	}
@@ -1510,7 +1510,7 @@ textarea {
 @media (min-width: 2560px) {
 
 	.page-template-template_types #infoTypes {
-		width: 50vw;
+		width: 60vw;
 		height: auto;
 		margin: 2% 0 0 0;
 	}
