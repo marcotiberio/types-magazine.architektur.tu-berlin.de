@@ -1217,7 +1217,7 @@ textarea {
 .wp-block-getwid-custom-post-type__post-excerpt {
 	display: block;
     width: 97vw;
-    padding-top: 7vh;
+    margin-top: 0;
     color: #ffffff;
     text-align: right;
 	font-size: 2rem;
@@ -1265,9 +1265,9 @@ textarea {
 
 @media (min-width: 1920px) {
 
-.wp-block-getwid-custom-post-type .wp-block-getwid-custom-post-type__post-title {
-    margin-top: 3vh;
-}
+	.wp-block-getwid-custom-post-type .wp-block-getwid-custom-post-type__post-title {
+		margin-top: 3vh;
+	}
 
 }
 
