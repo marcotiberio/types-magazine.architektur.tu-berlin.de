@@ -148,7 +148,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $( "#titleTypesMobile" ).click(function() {
         $( "#boxTypesMobile" ).animate({
-            height: "25vh", 
+            height: "20vh", 
         }, 200 );
     });
 });
