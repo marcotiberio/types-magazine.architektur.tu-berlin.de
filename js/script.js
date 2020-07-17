@@ -146,6 +146,14 @@ $(document).ready(function(){
     });
 
 $(document).ready(function(){
+    $( "#arrowsTypesMobile" ).click(function() {
+        $( "#knowledgeTypesMobile" ).animate({
+            rowGap: "0", 
+            }, 200 );
+        });
+    });
+
+$(document).ready(function(){
     $( "#titleTypesMobile" ).click(function() {
         $( "#boxTypesMobile" ).animate({
             height: "20vh", 

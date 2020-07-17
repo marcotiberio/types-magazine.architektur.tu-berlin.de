@@ -1368,7 +1368,7 @@ textarea {
 		background-color: white;
 	}
 	
-	.page-template-template_types .info-type {
+	.page-template-template_types #infoTypesMobileGrid {
 		display: grid;
     	grid-template-columns: 1fr;
     	grid-template-rows: repeat (3, 1fr);
