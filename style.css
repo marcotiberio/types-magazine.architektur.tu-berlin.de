@@ -1367,7 +1367,7 @@ textarea {
 	}
 	
 	.page-template-template_types #boxTypes {
-		display: none;
+		display: block;
 	}
 
 	.page-template-template_types #boxTypesMobile,
