@@ -1228,6 +1228,41 @@ textarea {
 	display: block;
 }
 
+@media (max-width: 1024px) {
+	
+	.wp-block-getwid-custom-post-type__post-thumbnail a img {
+		display: block;
+		height: auto;
+		max-width: 300%;
+	}
+		
+		.wp-block-getwid-custom-post-type__post:hover {
+		filter: grayscale(0);
+		display: block;
+		height: 23.5vh !important;
+		margin-top: 0 !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+		
+		.wp-block-getwid-custom-post-type__post-header h3 {
+		font-size: 2rem;
+		line-height: 1.7rem;
+		text-transform: capitalize;
+	}
+		
+		.wp-block-getwid-custom-post-type__post-excerpt {
+			display: none;
+			width: 99vw;
+			margin-top: 2vh;
+			color: #ffffff;
+			text-align: right;
+			font-size: 2rem;
+			font-family: "AutoscapeWeb-Regular";
+	}
+		
+	}
+
 /*--------------------------------------------------------------
 /*--------------------------------------------------------------
 /*--------------------------------------------------------------
