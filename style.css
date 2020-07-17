@@ -1238,10 +1238,10 @@ textarea {
 
 	.page-template-template_types .intro-types {
 		width: 100vw;
-		height: 25vh;
+		height: 20vh;
 		padding: 1% 2%;
 		overflow: auto;
-		background: rgb(255,255,255);
+		background-color: #ffffff;
 	}
 		
 		.wp-block-getwid-custom-post-type__post:hover {
@@ -1395,7 +1395,7 @@ textarea {
 	
 	.page-template-template_types #rowTwo{
 		display: grid;
-    	grid-template-columns: 2fr 1fr;
+    	grid-template-columns: 3fr 1fr;
     	grid-template-rows: 1fr;
 		height: auto;
 	}
