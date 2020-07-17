@@ -1366,7 +1366,7 @@ textarea {
 		height: 20vh;
 	}
 	
-	.page-template-template_types .info-type {
+	.page-template-template_types #boxTypes {
 		display: block;
 	}
 

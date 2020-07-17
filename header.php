@@ -71,7 +71,7 @@
 			</div>
 		</div>
 
-		<div class="intro-types" id="boxTypesMobile">
+		<!-- <div class="intro-types" id="boxTypesMobile">
 			<div class="info-type" id="infoTypesMobileGrid">
 				<div id="rowOne">
 					<div id="titleTypesMobile">
@@ -98,7 +98,7 @@
 					<div></div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'types-magazine' ); ?></button>
