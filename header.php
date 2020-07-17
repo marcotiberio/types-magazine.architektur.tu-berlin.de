@@ -63,11 +63,10 @@
 				<h1>of Knowledge Production</h1>
 			</div>
 			<div id="infoTypes">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-				et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-				aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-				dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-				officia deserunt mollit anim id est laborum.</p>
+				<p>What would be the future of architecture in the context of the current shift to enhanced digital communication? 
+				The first issue of the web magazine investigates under the title ‚Types of Knowledge Production‘ various modes of knowledge production concerning spatial practice – understood as spatial forms for collective interaction and transmission ranging from educational set-ups to new tools research and knowledge exchange. 
+				Under the reign of digital communication, this issue explores; relationships between ‚virtual‘ and ‚physical‘ forms of knowledge, between the process of information distribution to materialized manifestations of know-how and skills. The contributions question the current state of architecture communication seeking for new types of methods for content production in architecture.
+				The future is always at the threshold; Types is a reflection of futures. Until the next issue, enjoy.</p>
 			</div>
 		</div>
 
@@ -89,11 +88,10 @@
 				</div>
 				<div id="rowThree">
 					<div id="infoTypesMobile">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-						dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-						officia deserunt mollit anim id est laborum.</p>
+					<p>What would be the future of architecture in the context of the current shift to enhanced digital communication? 
+					The first issue of the web magazine investigates under the title ‚Types of Knowledge Production‘ various modes of knowledge production concerning spatial practice – understood as spatial forms for collective interaction and transmission ranging from educational set-ups to new tools research and knowledge exchange. 
+					Under the reign of digital communication, this issue explores; relationships between ‚virtual‘ and ‚physical‘ forms of knowledge, between the process of information distribution to materialized manifestations of know-how and skills. The contributions question the current state of architecture communication seeking for new types of methods for content production in architecture.
+					The future is always at the threshold; Types is a reflection of futures. Until the next issue, enjoy.</p>
 					</div>
 					<div></div>
 				</div>
