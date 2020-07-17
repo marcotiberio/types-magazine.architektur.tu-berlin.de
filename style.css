@@ -1348,9 +1348,7 @@ textarea {
 
 	.site-header {
 		position: fixed;
-		background-image: url("https://types-magazine.architektur.tu-berlin.de/wp-content/uploads/2020/07/02_Layers-of-Perception.gif");
-		background-size: cover;
-		background-repeat: no-repeat;
+		background-color: white;
 		top: 0;
 		left: 0;
 		z-index: 1000;
