@@ -1239,7 +1239,7 @@ textarea {
 		.wp-block-getwid-custom-post-type__post:hover {
 		filter: grayscale(0);
 		display: block;
-		height: 23.5vh !important;
+		height: 22vh !important;
 		margin-top: 0 !important;
 		padding-left: 0 !important;
 		padding-right: 0 !important;
