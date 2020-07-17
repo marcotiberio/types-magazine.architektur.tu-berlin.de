@@ -1,3 +1,149 @@
+/* removed 17/07 */
+
+/* LAST CHANGES */
+
+.wp-block-getwid-custom-post-type__post-thumbnail:hover ~ .wp-block-getwid-custom-post-type__post-excerpt {
+	display: block;
+}
+
+.wp-block-getwid-custom-post-type__post {
+	filter: grayscale(1);
+}
+
+.wp-block-getwid-custom-post-type__post:hover {
+	filter: grayscale(0);
+	display: block;
+	height: 25vh !important;
+	margin-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 1024px) {
+	
+	.page-template-template_types #knowledgeTypes h1 {
+	color: black !important;
+	font-size: 5rem;
+	margin-top: 0;
+}
+
+.page-template-template_types #infoTypes p {
+	color: black !important;
+}
+	
+	.page-template-template_types #titleTypesMobile h1 {
+		font-size: 55px;
+		margin-top: 0 !important;
+		cursor: pointer;
+		color: #858585;
+	}
+	
+	.page-template-template_types #arrowsTypesMobile h1 {
+		font-size: 55px;
+		margin-top: 0;
+		cursor: pointer;
+		color: #858585;
+	}
+		
+	#knowledgeTypesMobile h1 {
+		font-size: 45px;
+		color: #858585;
+	}
+
+	#infoTypesMobile {
+		font-size: 18px;
+		color: #858585;
+	}
+	
+.wp-block-getwid-custom-post-type__post-thumbnail a img {
+    display: block;
+		height: auto;
+    max-width: 300%;
+}
+	
+	.wp-block-getwid-custom-post-type__post:hover {
+    filter: grayscale(0);
+    display: block;
+    height: 23.5vh !important;
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+	
+	.wp-block-getwid-custom-post-type__post-header h3 {
+    font-size: 2rem;
+		line-height: 1.7rem;
+    text-transform: capitalize;
+}
+	
+	.wp-block-getwid-custom-post-type__post-excerpt {
+		display: none;
+    width: 99vw;
+    margin-top: 2vh;
+    color: #ffffff;
+    text-align: right;
+	font-size: 2rem;
+    font-family: "AutoscapeWeb-Regular";
+}
+	
+}
+
+/* LAST CHANGES */
+
+
+
+/* Andrew */
+
+.site-header {
+    background-image: url("https://types-magazine.architektur.tu-berlin.de/wp-content/uploads/2020/07/02_Layers-of-Perception.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.page-template-template_types .intro-types {
+    width: 100vw;
+    height: 25vh;
+    padding: 1% 2%;
+    overflow: auto;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(231,231,231,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(231,231,231,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(231,231,231,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d3d3d3",GradientType=1);
+}
+
+.page-template-template_types #infoTypes {
+    width: 70%;
+    height: auto;
+    margin: 2% 0 0 0;
+}
+
+.page-template-template_types #infoTypes p {
+    color: #ffffff;
+		font-size: 1.2rem;
+		font-weight: 800;
+		font-family: "AutoscapeWeb-Regular";
+}
+
+/* removed 17/07 */
+
+/* Andrew */
+
+
+.wp-block-getwid-custom-post-type__content-wrapper {
+	display: none;
+}
+
+.wp-block-getwid-custom-post-type__post-wrapper:hover > .wp-block-getwid-custom-post-type__content-wrapper {
+	display: block;
+}
+
+.intro-types,
+.info-type{
+	overflow: hidden !important;
+}
+
+
 /* Andrew */
 
 .page-template-template_types #titleTypes h1, .page-template-template_types #arrowsTypes h1 {
