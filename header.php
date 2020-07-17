@@ -91,7 +91,7 @@
 					<p>What would be the future of architecture in the context of the current shift to enhanced digital communication? 
 					The first issue of the web magazine investigates under the title ‚Types of Knowledge Production‘ various modes of knowledge production concerning spatial practice – understood as spatial forms for collective interaction and transmission ranging from educational set-ups to new tools research and knowledge exchange. 
 					Under the reign of digital communication, this issue explores; relationships between ‚virtual‘ and ‚physical‘ forms of knowledge, between the process of information distribution to materialized manifestations of know-how and skills. The contributions question the current state of architecture communication seeking for new types of methods for content production in architecture.
-					The future is always at the threshold; Types is a reflection of futures. Until the next issue, enjoy.</p>
+					The future is always at the threshold; Types is a reflection of futures. Until the next issue, enjoy.<br><br><br></p>
 					</div>
 					<div></div>
 				</div>
