@@ -1388,7 +1388,7 @@ textarea {
 		display: grid;
     	grid-template-columns: 2fr 1fr;
     	grid-template-rows: 1fr;
-		height: 5rem;
+		/* height: 5rem; */
 	}
 	
 	.page-template-template_types #rowTwo{
