@@ -139,8 +139,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $( "#arrowsTypesMobile" ).click(function() {
-        $( "#infoTypesMobileGrid" ).animate({
-            rowGap: "0", 
+        $( "#knowledgeTypesMobile" ).animate({
+            marginTop: "-5vh", 
             }, 200 );
         });
     });
@@ -155,11 +155,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $( "#titleTypesMobile" ).click(function() {
-        $( "#infoTypesMobileGrid" ).animate({
-            rowGap: "100px", 
+        $( "#knowledgeTypesMobile" ).animate({
+            marginTop: "0vh", 
             }, 200 );
         });
     });
+
 
 
 
