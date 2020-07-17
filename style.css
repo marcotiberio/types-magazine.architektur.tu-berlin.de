@@ -1376,12 +1376,9 @@ textarea {
 		background-color: white;
 	}
 	
-	.page-template-template_types #infoTypesMobileGrid {
+	.page-template-template_types .info-type {
 		display: grid;
-    	grid-template-columns: 1fr;
-    	grid-template-rows: repeat(3, 1fr);
-		row-gap: 100px;
-    	height: 5rem;
+		grid-template-columns: 1fr;
 	}
 
 	.page-template-template_types #rowOne {
