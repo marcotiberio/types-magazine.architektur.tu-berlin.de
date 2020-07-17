@@ -1213,14 +1213,16 @@ textarea {
 }
 
 .wp-block-getwid-custom-post-type__post-excerpt {
-	display: none;
-	margin-right: 5%;
-	color: #ffffff;
-	text-align: right;
-	font-family: 'Akzidenz Grotesk Black';
+	display: block;
+    width: 97vw;
+    margin-top: 7vh;
+    color: #ffffff;
+    text-align: right;
+	font-size: 2rem;
+    font-family: "AutoscapeWeb-Regular";
 }
 
-.wp-block-getwid-custom-post-type__post-header:hover ~ .wp-block-getwid-custom-post-type__post-excerpt {
+.wp-block-getwid-custom-post-type__post-thumbnail:hover ~ .wp-block-getwid-custom-post-type__post-excerpt {
 	display: block;
 }
 
@@ -1442,6 +1444,30 @@ textarea {
 
 	.page-template-template_types #infoTypes p {
 		font-size: 1.5rem;
+	}
+
+	.wp-block-getwid-custom-post-type__post-excerpt {
+		display: block;
+		width: 97vw;
+		margin-top: 13vh;
+		color: #ffffff;
+		text-align: right;
+		font-size: 2rem;
+		font-family: "AutoscapeWeb-Regular";
+	}
+
+}
+
+@media (min-width: 2560px) {
+
+	.wp-block-getwid-custom-post-type__post-excerpt {
+		display: block;
+		width: 97vw;
+		margin-top: 15vh;
+		color: #ffffff;
+		text-align: right;
+		font-size: 2rem;
+		font-family: "AutoscapeWeb-Regular";
 	}
 
 }
