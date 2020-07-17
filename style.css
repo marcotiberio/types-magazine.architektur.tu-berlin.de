@@ -1263,7 +1263,7 @@ textarea {
 		
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1919px) {
 
 	.wp-block-getwid-custom-post-type .wp-block-getwid-custom-post-type__post-title {
 		margin-top: 3vh;
@@ -1471,7 +1471,7 @@ textarea {
 }
 
 
-@media (min-width: 1920px) {
+@media (min-width: 1919px) {
 
 	.page-template-template_types .intro-types {
 		padding: 1% 2%;
