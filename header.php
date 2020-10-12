@@ -23,7 +23,6 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'types-magazine' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
@@ -70,7 +69,7 @@
 			</div>
 		</div>
 
-		<div class="intro-types" id="boxTypesMobile">
+		<!-- <div class="intro-types" id="boxTypesMobile">
 			<div class="info-type" id="">
 				<div id="rowOne">
 					<div id="titleTypesMobile">
@@ -96,7 +95,7 @@
 					<div></div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'types-magazine' ); ?></button>
