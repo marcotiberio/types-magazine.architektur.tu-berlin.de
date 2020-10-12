@@ -20,16 +20,8 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				types_magazine_posted_on();
-				types_magazine_posted_by();
-				?>
-			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
-	<?php types_magazine_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -47,14 +39,19 @@
 				wp_kses_post( get_the_title() )
 			)
 		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'types-magazine' ),
-				'after'  => '</div>',
-			)
-		);
 		?>
+		<div class="embed-container">
+			<?php the_field('video'); ?>
+		</div>
+		<div id="linkPdf">
+			<?php
+			$file = get_field('pdf');
+			if( $file ): ?>
+				<a href="<?php echo $file['url']; ?>" target="_blank">
+					<h3>PDF</h3>
+				</a>
+			<?php endif; ?>
+		</div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

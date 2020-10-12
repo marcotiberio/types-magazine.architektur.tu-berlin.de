@@ -21,17 +21,25 @@
 			while ( $arr_posts->have_posts() ) :
 				$arr_posts->the_post();
 				?>
-				<article class="article-centrale" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<div class="event-header" style="display: grid; grid-template-columns: 1fr 1fr;">
-						<?php types_magazine_post_thumbnail(); ?>
-						<a href="<?php the_permalink(); ?>">
-							<span class="title"><?php print the_title(); ?></span>
-						</a>
-					</div>
-					<div class="summary">
-						
-					</div>
-				</article>
+				
+				<a href="<?php the_permalink(); ?>">
+					<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
+					<article class="article-centrale" style="background: url('<?php echo $backgroundImg[0]; ?>') no-repeat; background-size: cover; background-position: top;" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<div class="header">
+							<h1 class="title"><?php print the_title(); ?></h1>
+						</div>
+						<div></div>
+						<div></div>
+						<div class="pdf">
+							<?php
+								$pdf = get_field('pdf');
+								if( $pdf ): ?>
+									<a href="<?php echo $pdf['url']; ?>" target="_blank">PDF</a>
+								<?php endif;
+							?>
+						</div>
+					</article>
+				</a>
 				<?php
 			endwhile;
 		endif; 

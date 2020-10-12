@@ -9,6 +9,14 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
+        $( "#primary" ).animate({
+            marginTop: "75vh",
+            }, 200 );
+        });
+    });
+
+$(document).ready(function(){
+    $( "#arrowsTypes" ).click(function() {
         $( "#masthead" ).animate({
             height: "75vh",
             }, 200 );
@@ -67,6 +75,14 @@ $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#boxTypes" ).animate({
             height: "25vh", 
+            }, 200 );
+        });
+    });
+
+    $(document).ready(function(){
+    $( "#titleTypes" ).click(function() {
+        $( "#primary" ).animate({
+            marginTop: "25vh", 
             }, 200 );
         });
     });

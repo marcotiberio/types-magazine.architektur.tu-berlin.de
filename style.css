@@ -1032,7 +1032,7 @@ textarea {
 	height: 25vh;
 }
 
-.site-main {
+#primary {
 	margin-top: 25vh;
 }
 .main-navigation,
@@ -1157,7 +1157,7 @@ textarea {
 
 .page-template-template_types #knowledgeTypes {
 	text-align: left;
-    margin-top: 13vh;
+    margin-top: 14vh;
     padding: 0;
 }
 
@@ -1410,6 +1410,7 @@ textarea {
 		margin-top: 0 !important;
 		cursor: pointer;
 		color: #858585;
+		text-transform: uppercase;
 	}
 	
 	.page-template-template_types #arrowsTypesMobile h1 {
@@ -1427,6 +1428,7 @@ textarea {
 	#infoTypesMobile {
 		font-size: 18px;
 		color: #858585;
+		margin-bottom: 20vh;
 	}
 
 	.single-post .entry-content p {
