@@ -44,7 +44,7 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
-		<div class="intro-types" id="boxTypes">
+		<!-- <div class="intro-types" id="boxTypes">
 			<div class="info-type">
 				<div id="titleTypes">
 					<h1>TYPES</h1>
@@ -67,7 +67,7 @@
 				Under the reign of digital communication, this issue explores; relationships between ‚virtual‘ and ‚physical‘ forms of knowledge, between the process of information distribution to materialized manifestations of know-how and skills. The contributions question the current state of architecture communication seeking for new types of methods for content production in architecture.
 				The future is always at the threshold; Types is a reflection of futures. Until the next issue, enjoy.</p>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- <div class="intro-types" id="boxTypesMobile">
 			<div class="info-type" id="">

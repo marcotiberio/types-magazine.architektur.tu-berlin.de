@@ -10,7 +10,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#primary" ).animate({
-            marginTop: "75vh",
+            marginTop: "0",
             }, 200 );
         });
     });
@@ -82,7 +82,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#primary" ).animate({
-            marginTop: "25vh", 
+            marginTop: "0", 
             }, 200 );
         });
     });

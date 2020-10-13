@@ -1030,10 +1030,11 @@ textarea {
 	left: 0;
 	z-index: 1000;
 	height: 25vh;
+	display: none;
 }
 
 #primary {
-	margin-top: 25vh;
+	margin-top: 0;
 }
 .main-navigation,
 .entry-header,
@@ -1104,7 +1105,7 @@ textarea {
 
 .page-template-template_types .info-type {
 	display: grid;
-	grid-template-columns: 1.5fr 7fr 1fr;
+	grid-template-columns: 2fr 5fr;
 }
 
 .page-template-template_types .intro-types {
