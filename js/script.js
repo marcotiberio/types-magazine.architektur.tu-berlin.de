@@ -192,3 +192,14 @@ $(document).ready(function(){
       $(".preview-summary").css("display", "none");
     });
 });
+
+
+// Imprint
+
+$(document).ready(function(){
+    $("#openImprint").click(function(){
+      $("#imprint").slideToggle("fast", function() {
+        // Animation complete.
+      });
+    });
+  });
